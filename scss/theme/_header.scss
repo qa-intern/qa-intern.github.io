@@ -240,9 +240,9 @@
     padding-top: 18px;
     bottom: 0;
     z-index: 998;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 1);
     left: -260px;
-    width: 260px;
+    width: 20px;
     overflow-y: auto;
     transition: 0.4s;
 }
@@ -318,7 +318,7 @@ body.mobile-nav-active {
 }
 
 body.mobile-nav-active #mobile-nav {
-    left: 0;
+    left: 1;
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
