@@ -1,10 +1,10 @@
 <?php
-    $to = 'demo@spondonit.com';
+    $to = 'qa.intern.ks@gmail.com';
     $firstname = $_POST["fname"];
     $email= $_POST["email"];
     $text= $_POST["message"];
     $phone= $_POST["phone"];
-    
+
 
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
@@ -18,12 +18,12 @@
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>phone: '.$phone.'</td></tr>
         <tr><td>Text: '.$text.'</td></tr>
-        
+
     </table>';
 
     if (@mail($to, $email, $message, $headers))
     {
-        echo 'The message has been sent.';
+        echo 'The bunny has been sent.';
     }else{
         echo 'failed';
     }
